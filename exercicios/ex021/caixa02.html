@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(41, 39, 35, 0.452);
+        }
+        header {
+            background-color: white;
+            padding-left: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: 1px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.397);
+        }
+
+        nav > a {
+            color: white;
+            font-weight: bold;
+            padding: 3px;
+            margin-right: 60px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        main > section {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: gray
+        }
+
+        artticle > aside {
+            background-color: antiquewhite;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Familia sacana free</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Morra Mateus Mendonça de Souza</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Tufos comicos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea cum culpa nemo repudiandae animi fugiat qui suscipit, autem tenetur ex sapiente, accusamus quae! Est, doloribus velit in provident nam id.</p>
+                <aside>
+                    <p>Artigo escrito por Estuprilson Negrilson</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Mateus neguelson</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
